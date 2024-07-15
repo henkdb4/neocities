@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  max-width: 500px;
+  margin: 25% auto auto auto;
+}
+
+.iconlist {
+  display: flex;
+  fl
+  flex-direction: row;
+  justify-content: space-between;
+}
