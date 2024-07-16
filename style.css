@@ -1,3 +1,9 @@
+body {
+  background: #1b1b1b;
+  color: deepskyblue;
+  font-family: "Tilt Neon", sans-serif;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -5,11 +11,59 @@ main {
   
   max-width: 500px;
   margin: 25% auto auto auto;
+
+  font-size: 1.5em;
+  text-align: center;
 }
 
-.iconlist {
+h1 {
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2em;
+}
+
+.linklist {
+  margin-bottom: 3em;
   display: flex;
-  fl
   flex-direction: row;
   justify-content: space-between;
+}
+
+.linklist > .link {
+  text-decoration: none;
+  font-family: "Tilt Neon", sans-serif;
+  color: grey;
+}
+
+.linklist > .link:visited {
+  /* color: dimgrey */
+}
+
+.linklist > .link:hover {
+  text-decoration: underline;
+}
+
+.spotify:hover {
+  color: #1cd360;
+}
+
+.github:hover {
+  color: #763fc5;
+}
+
+.codeberg:hover {
+  color: #4793cc;
+}
+
+.steam:hover {
+  color: #203d5a;
+}
+
+.neocities:hover {
+  color: #f59c32;
+}
+
+.counter-text {
+  color:  grey;
 }
