@@ -28,7 +28,8 @@ h1 {
   margin-bottom: 3em;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .linklist > .link {
