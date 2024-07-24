@@ -43,10 +43,6 @@ a {
   color: grey;
 }
 
-.linklist > .link:visited {
-  /* color: dimgrey */
-}
-
 a:hover {
   text-shadow:
   	 1px  1px 5px,
@@ -82,3 +78,8 @@ a:hover {
 .thunderwaregames {
   color: #b03d3d
 }
+
+.my {
+  color: yellow;
+}
+
