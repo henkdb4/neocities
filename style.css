@@ -24,6 +24,13 @@ h1 {
   font-size: 3rem;
 }
 
+a {
+  text-decoration: none;
+  font-family: "Tilt Neon", sans-serif;
+  transition: color text-shadow;
+  transition-duration: 0.3s;
+}
+
 .linklist {
   margin-bottom: 3rem;
   display: flex;
@@ -33,18 +40,14 @@ h1 {
 }
 
 .linklist > .link {
-  text-decoration: none;
-  font-family: "Tilt Neon", sans-serif;
   color: grey;
-  transition: color text-shadow;
-  transition-duration: 0.3s;
 }
 
 .linklist > .link:visited {
   /* color: dimgrey */
 }
 
-.linklist > .link:hover {
+a:hover {
   text-shadow:
   	 1px  1px 5px,
   	-1px -1px 5px,
@@ -74,4 +77,8 @@ h1 {
 
 .counter {
   color:  grey;
+}
+
+.thunderwaregames {
+  color: #b03d3d
 }
