@@ -5,10 +5,6 @@ body {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
   max-width: 40rem;
   margin: 10rem auto auto auto;
   padding: 0 50px;
