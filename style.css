@@ -1,6 +1,6 @@
 body {
-  background: #1b1b1b;
-  color: deepskyblue;
+  background: #18181a;
+  color: lime;
   font-family: "Tilt Neon", sans-serif;
 }
 
@@ -14,10 +14,48 @@ main {
 }
 
 h1 {
-  font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: lighter;
   font-style: italic;
   font-size: 3rem;
+}
+
+.neon {
+  text-shadow:
+     1px 0px 3px white,
+     2px 0px 3px white,
+     3px 0px 3px ,
+     2px 0px 2px ,
+    -1px 0px 3px white,
+    -2px 0px 3px white,
+    -3px 0px 3px ,
+    -2px 0px 2px ,
+    2px 3px 15px,
+    2px 0px 15px,
+    5px 0px 125px,
+    20px 0vw 200px,
+    40px 0vw 200px; 
+}
+
+.neon-select {
+  transition: text-shadow;
+  transition-duration: 0.3s;
+}
+
+.neon-select:hover {
+  text-shadow:
+     1px 0px 3px white,
+     2px 0px 3px white,
+     3px 0px 3px ,
+     2px 0px 2px ,
+    -1px 0px 3px white,
+    -2px 0px 3px white,
+    -3px 0px 3px ,
+    -2px 0px 2px ,
+    2px 3px 15px,
+    2px 0px 15px,
+    5px 0px 125px,
+    20px 0vw 200px,
+    40px 0vw 200px; 
 }
 
 a {
@@ -39,14 +77,14 @@ a {
   color: grey;
 }
 
-a:hover {
+/* a:hover {
   text-shadow:
   	 1px  1px 5px,
   	-1px -1px 5px,
   	 1px -1px 5px,
   	-1px  1px 5px;
 }
-
+*/
 .spotify:hover {
   color: #1cd360;
 }
@@ -76,6 +114,5 @@ a:hover {
 }
 
 .my {
-  color: yellow;
+  color: #ff395a;
 }
-
