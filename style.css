@@ -44,11 +44,11 @@ p {
     -2px 0px 3px white,
     -3px 0px 3px ,
     -2px 0px 2px ,
-    2px 3px 15px,
-    2px 0px 15px,
-    5px 0px 125px,
-    20px 0vw 200px,
-    40px 0vw 200px; 
+     2px 3px 15px,
+     2px 0px 15px,
+     5px 0px 125px,
+     20px 0vw 200px,
+     40px 0vw 200px,
     -20px 0vw 200px,
     -40px 0vw 200px; 
 }
@@ -68,11 +68,13 @@ p {
     -2px 0px 3px white,
     -3px 0px 3px ,
     -2px 0px 2px ,
-    2px 3px 15px,
-    2px 0px 15px,
-    5px 0px 125px,
-    20px 0vw 200px,
-    40px 0vw 200px; 
+     2px 3px 15px,
+     2px 0px 15px,
+     5px 0px 125px,
+     20px 0vw 200px,
+     40px 0vw 200px, 
+    -20px 0vw 200px,
+    -40px 0vw 200px; 
 }
 
 
