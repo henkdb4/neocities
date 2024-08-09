@@ -13,14 +13,9 @@ main {
   text-align: center;
 }
 
-h1 {
+h1 h2 {
   font-weight: lighter;
   font-style: italic;
-  font-size: 3rem;
-}
-
-h2 {
-  font-weight: lighter;
 }
 
 a {
