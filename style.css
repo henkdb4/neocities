@@ -6,7 +6,7 @@ body {
 
 main {
   max-width: 40rem;
-  margin: 10rem auto auto auto;
+  margin: 10rem auto 0 auto;
   padding: 0 15px;
 
   font-size: 1.5rem;
@@ -123,4 +123,8 @@ p {
 
 .my {
   color: #ff395a;
+}
+
+.bottom-back{
+  padding-bottom: 10rem;
 }
