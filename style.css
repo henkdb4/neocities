@@ -31,45 +31,11 @@ p {
 
 .neon {
   text-shadow:
-     1px 0px 3px white,
-     2px 0px 3px white,
-     3px 0px 3px ,
-     2px 0px 2px ,
-    -1px 0px 3px white,
-    -2px 0px 3px white,
-    -3px 0px 3px ,
-    -2px 0px 2px ,
-     2px 3px 15px,
-     2px 0px 15px,
-     5px 0px 125px,
-     20px 0vw 200px,
-     40px 0vw 200px,
-    -20px 0vw 200px,
-    -40px 0vw 200px; 
-}
-
-.neon-select {
-  transition: text-shadow;
-  transition-duration: 0.3s;
-}
-
-.neon-select:hover {
-  text-shadow:
-     1px 0px 3px white,
-     2px 0px 3px white,
-     3px 0px 3px ,
-     2px 0px 2px ,
-    -1px 0px 3px white,
-    -2px 0px 3px white,
-    -3px 0px 3px ,
-    -2px 0px 2px ,
-     2px 3px 15px,
-     2px 0px 15px,
-     5px 0px 125px,
-     20px 0vw 200px,
-     40px 0vw 200px, 
-    -20px 0vw 200px,
-    -40px 0vw 200px; 
+    0px 0px 7px white,
+    0px 0px 3px white,
+    0   0   20px, 
+    0   0   50px, 
+    0   0   200px; 
 }
 
 .flicker {
