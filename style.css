@@ -1,6 +1,6 @@
 body {
   background: #18181a;
-  color: lime;
+  color: #8ffe09;
   font-family: "Tilt Neon", sans-serif;
 }
 
@@ -88,5 +88,7 @@ p {
 }
 
 .bottom-back{
+  margin-top: 1rem;
   padding-bottom: 10rem;
+  display: block;
 }
