@@ -66,6 +66,10 @@ p {
   color: #00acef;
 }
 
+.ggapp:hover {
+  color: #47ed3a;
+}
+
 .neocities:hover {
   color: #f59c32;
 }
