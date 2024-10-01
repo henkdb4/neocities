@@ -21,8 +21,6 @@ h1, h2 {
 a {
   text-decoration: none;
   font-family: "Tilt Neon", sans-serif;
-  transition: color text-shadow;
-  transition-duration: 0.3s;
 }
 
 p {
