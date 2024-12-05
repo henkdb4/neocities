@@ -1,3 +1,9 @@
+# AI Data Scraper
+# https://darkvisitors.com/agents/ai2bot
+
+User-agent: AI2Bot
+Disallow: /
+
 # AI Search Crawler
 # https://darkvisitors.com/agents/amazonbot
 
@@ -59,9 +65,21 @@ User-agent: cohere-ai
 Disallow: /
 
 # AI Data Scraper
+# https://darkvisitors.com/agents/cohere-training-data-crawler
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# AI Data Scraper
 # https://darkvisitors.com/agents/diffbot
 
 User-agent: Diffbot
+Disallow: /
+
+# AI Assistant
+# https://darkvisitors.com/agents/duckassistbot
+
+User-agent: DuckAssistBot
 Disallow: /
 
 # AI Data Scraper
@@ -110,6 +128,12 @@ Disallow: /
 # https://darkvisitors.com/agents/omgili
 
 User-agent: omgili
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/pangubot
+
+User-agent: PanguBot
 Disallow: /
 
 # AI Search Crawler
