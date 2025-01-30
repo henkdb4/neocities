@@ -22,3 +22,20 @@ div.cyber > p {
   margin-top: 1rem;
 }
 
+
+h2 + .cyber { 
+  padding-top: 2.5rem;
+}
+
+h2:has( +.cyber) {
+  color: #282828;
+  font-size: 1.5rem;
+  background: #8ffe09;
+  position: absolute;
+  z-index: 2;
+  padding: 5px 1.5rem 5px 1rem;
+  margin: 0;
+
+  /* The border magic! */
+  clip-path: polygon(100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0% 100%, 0 0);
+}
