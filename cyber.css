@@ -14,21 +14,20 @@ div.cyber > p {
   color: #fffafa;
 }
 
-.cyber + * {
-  margin-top: 80px;
+* + .cyber {
+  margin-bottom: 80px;
 }
 
 .cyber > p + p {
   margin-top: 1rem;
 }
 
-
 h2 + .cyber { 
   padding-top: 2.5rem;
 }
 
 h2:has( +.cyber) {
-  color: #282828;
+  color: black;
   font-size: 1.5rem;
   background: #8ffe09;
   position: absolute;
